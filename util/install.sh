@@ -144,7 +144,7 @@ function mn_deps {
 		         ${PYPKG}-setuptools ${PYPKG}-pexpect ${PYPKG}-tk
     else
         $install gcc make socat psmisc xterm ssh iperf telnet \
-                 cgroup-bin ethtool help2man pyflakes pylint pep8 \
+                 cgroup-tools ethtool help2man python3-pyflakes pylint pep8 \
                  ${PYPKG}-setuptools ${PYPKG}-pexpect ${PYPKG}-tk
         $install iproute2 || $install iproute
     fi
